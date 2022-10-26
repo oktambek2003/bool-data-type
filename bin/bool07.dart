@@ -7,11 +7,12 @@
     Returns:
         bool
     */
-
-void main() {
-  int a = 23;
-  int b = 33;
+bool func(int a, int b) {
   bool ans;
   ans = a != b;
-  print(ans);
+  return ans;
+}
+
+void main() {
+    print(func(3,1));
 }
