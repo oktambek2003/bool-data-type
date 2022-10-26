@@ -7,7 +7,7 @@
         bool
     */
 
-void main() {
+void func() {
 
   int a = 7;
   bool ans ;
