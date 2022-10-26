@@ -8,8 +8,10 @@
     */
 
 void main() {
+
   int a = 7;
-  bool ans;
+  bool ans ;
   ans = a > 0;
   print(ans);
+
 }
