@@ -6,10 +6,12 @@
     Returns:
         bool
     */
-
-void main() {
-  int a = 3;
+bool func(int a) {
   bool ans;
   ans = a % 2 == 1;
-  print(ans);
+  return ans;
+}
+
+void main() {
+  print(func(8));
 }
